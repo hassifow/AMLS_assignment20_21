@@ -1,4 +1,4 @@
-# AMLS 20/21
+# AMLS_assignment_20_21_SN17063805
 In this project we are going to solve two main tasks: a binary detection task and multiclass recognition task. In the binary detection task, we have gender and emotion detec-tion. In the multiclass recognition, we have face shape and eye colour recognition. 
                                                                                                                                               
 ## Create a virtual environment.
