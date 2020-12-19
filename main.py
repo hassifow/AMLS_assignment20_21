@@ -2,8 +2,8 @@ import logging
 import os
 from pathlib import Path
 
-from Datasets.data_loader.A_data_loader import ADataLoader
-from Datasets.data_loader.B_data_loader import BDataLoader
+from data_loader.A_data_loader import ADataLoader
+from data_loader.B_data_loader import BDataLoader
 
 from A1.A1 import A1
 from A2.A2 import A2
