@@ -64,7 +64,7 @@ class ADataLoader:
     @staticmethod
     def split_data(X, Y):
         # pre-process the data for Keras
-        X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3, random_state=42, shuffle=True)
+        X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.25, random_state=42, shuffle=True)
 
         print(X_train.shape, Y_train.shape, X_test.shape, Y_test.shape)
 
