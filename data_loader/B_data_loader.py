@@ -111,7 +111,7 @@ class BDataLoader:
 
         print(Y[:10])
 
-        X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.1, random_state=42, shuffle=True)
+        X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.25, random_state=42, shuffle=True)
 
         print(X_train.shape, Y_train.shape, X_test.shape, Y_test.shape)
 
